@@ -8,3 +8,8 @@ arr.forEach((num, index, arr) =>
 // map Methods
 const newArr = arr.map((num, index, arr) => num * 2);
 console.log(newArr);
+
+// filter Methods
+
+const newArrTwo = arr.filter((num, i, arr) => num > 3);
+console.log(newArrTwo);
